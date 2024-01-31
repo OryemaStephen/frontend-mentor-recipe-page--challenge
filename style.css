@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(244, 229, 210, 0.911);
+    font-size: 14px;
+}
+
+main{
+    width: 50%;
+    /* min-width: 400px; */
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+header{
+    width: 100%;
+}
+#img-header{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#main-heading{
+    text-align: left;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#prep-time{
+    background-color: rgba(252, 239, 239, 0.934);
+    padding: 5px;
+    width: 98%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#prep-time h3{
+    color: #621c1c;
+    margin: 5px;
+}
+
+#prep-time ul{
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+#prep-time ul li{
+    margin: 5px auto;
+}
+
+section{
+    width: 100%;
+    margin-top: 15px;
+}
+
+section h3{
+    color: #714949;
+}
+
+section ul, ol{
+    margin-left: 20px;
+}
+
+section ul{
+    list-style-type: square;
+}
+
+section ol li, ul li{
+    margin: 5px auto;
+}
+
+
+#nutrition{
+    width: 100%;
+    margin-top: 15px;
+}
+
+#nutrition p{
+    margin: 5px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+table tr{
+    border-bottom: 0.3px solid rgb(149, 147, 147);
+    margin-top: 50px;
+}
+
+.qty{
+    color: #714949;    
+}
+
+hr{
+    margin-top: 20px;
+    position: relative;
+}
