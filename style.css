@@ -59,7 +59,7 @@ section{
 }
 
 section h3{
-    color: #714949;
+    color: #894444;
 }
 
 section ul, ol{
@@ -72,6 +72,10 @@ section ul{
 
 section ol li, ul li{
     margin: 5px auto;
+}
+
+section ol li::marker, ul li::marker{
+    color: #894444;
 }
 
 
@@ -92,11 +96,10 @@ table {
 
 table tr{
     border-bottom: 0.3px solid rgb(149, 147, 147);
-    margin-top: 50px;
 }
 
 .qty{
-    color: #714949;    
+    color: #894444;    
 }
 
 hr{
